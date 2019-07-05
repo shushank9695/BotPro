@@ -3,7 +3,7 @@ import os
 import pytz
 import requests
 import math
-API_KEY = 'b4b9df1d2bacf6b7422e0bbc44164050'
+API_KEY = ''
 API_URL = ('http://api.openweathermap.org/data/2.5/weather?q={}&mode=json&units=metric&appid={}')
 
 def query_api(city):
